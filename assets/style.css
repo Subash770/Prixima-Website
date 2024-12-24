@@ -1,0 +1,551 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+
+/*top nav*/
+.top-nav {
+    background-color: #ff4d29;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p, .top-nav a {
+    color: white; /* Optional: sets text color to white for better contrast */
+}
+
+.social-icons a {
+    margin-left: 10px; /* Space between social icons */
+}
+/* main nav*/
+
+/* navbar */
+.top-nav {
+    background-color: #ff4d29;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.top-nav span,
+.top-nav i {
+    vertical-align: middle;
+}
+
+.navbar {
+    box-shadow: var(--shadow);
+}
+
+.social-icons a {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.social-icons a:hover {
+    background-color: #fff;
+    color: rgb(221, 2, 2);
+}
+.conditions-section{
+    margin: 20px 0;
+}
+.conditions-section a{
+   color: #fff;
+   margin: 0 10px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: red;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.navbar-brand .dot {
+    color: red;
+}
+
+.btn {
+    padding: 8px 26px;
+}
+
+.btn-brand {
+    border-color: black;
+    background-color: red;
+    color: #fff;
+}
+
+.btn-brand:hover {
+    background-color: #d64022;
+    border-color: #d64022;
+    color: #fff;
+}
+.btn-custom-red {
+    background-color: red; 
+    color: white; 
+}
+
+
+/*slider*/
+.owl-carousel .item {
+    height: 500px; /* Fixed height for better control */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.slide1 {
+    background-image: url('/assets/img/bg_banner1.jpg');
+}
+
+.slide2 {
+    background-image: url('/assets/img/bg_banner2.jpg');
+}
+
+.slide1, .slide2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.owl-nav .owl-prev {
+    left: 10px;
+}
+
+.owl-nav .owl-next {
+    right: 10px;
+}
+
+.owl-nav button:hover {
+    background-color: red;
+}
+
+.owl-carousel .owl-nav {
+    display: block; /* Enable navigation */
+}
+
+/*about*/
+#about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.info-box {
+    display: flex;
+    align-items: start; /* Aligns items at the start vertically */
+}
+
+.icon {
+    width: 60px; /* Fixed width for icons */
+    height: auto;
+    margin-right: 15px; /* Space between icon and text */
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding: 20px; /* Equal padding around the image */
+}
+
+
+/*milestone*/
+#milestone {
+    background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(../assets/img/bg_banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    }
+
+/*services*/
+#services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.service {
+    background-color: #fff;
+
+    padding:40px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px rgba(110, 108, 108, 0.315); /* Adding black box shadow */
+}
+
+.service img {
+    width: 50px; /* Adjust as needed */
+}
+
+.service h5 {
+    color: #333;
+}
+
+.service p {
+    color: #666;
+}
+
+
+/*portfolio*/
+#portfolio{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.intro {
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+/*project*/
+.c{
+    color:white;
+    display:inline-flex;
+}
+.line{
+    color:red;
+    font-weight: 200;
+    text-align:left;
+    bottom:10px;
+}
+.project {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with opacity */
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
+.content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    z-index: 2;
+}
+
+.owl-item {
+    padding: 0 5px; /* Add padding to separate items */
+}
+
+.owl-nav button.owl-prev, .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.owl-nav button.owl-prev {
+    left: 10px;
+}
+
+.owl-nav button.owl-next {
+    right: 10px;
+}
+
+.owl-dots {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    background: #ddd;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.owl-dot.active {
+    background: #666;
+}
+
+/*team*/
+#team{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.team-member .image {
+    position: relative;
+}
+
+.team-member .image img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease;
+}
+
+.team-member .image:hover img {
+    opacity: 0.5;
+}
+
+.team-member .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff5b25;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.team-member .overlay:hover {
+    opacity: 0.5;
+}
+
+.team-member .social-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team-member .social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+    color: white;
+    font-size: 20px;
+}
+
+/*reviews*/
+#reviews {
+    background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(../assets/img/bg_banner1.jpg), #082032;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top:80px ;
+    padding-bottom:80px; /* Added padding for spacing */
+}
+
+#sh {
+    color: red;
+}
+
+.review-img {
+    width: 80px !important;
+    height: 80px;
+    border-radius: 100px;
+    margin: auto;
+    display: block; /* Ensure the image is centered */
+}
+
+.person {
+    text-align: center;
+    margin-bottom: 20px; /* Space between person details and review text */
+}
+
+.owl-carousel .review {
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.owl-carousel .stars {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.owl-carousel .bx {
+    color: #ffdd57; /* Star color */
+}
+
+.owl-carousel .bx.bxs-quote-alt-left {
+    font-size: 30px;
+    color: #ff4d29;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.owl-carousel .owl-nav {
+    display: none; /* Hide default navigation */
+}
+
+.owl-carousel .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-carousel .owl-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    background-color: #ff4d29;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.owl-carousel .owl-dot.active {
+    background-color: #082032;
+}
+
+
+/*blog*/
+#blog{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.blog-post {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    display: flex; /* Use flexbox to control image and content layout */
+    height: fit-content;
+}
+
+.blog-post #blog-img {
+    
+    flex: 1; /* Make the image take up half of the container's width */
+    height: 100%; /* Ensure the image maintains its aspect ratio */
+    max-height: 50%; /* Ensure the image doesn't exceed the container's height */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    width: 250%;
+}
+
+
+
+.blog-post a {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color:  #ff4d29;
+    padding: 2px 12px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.blog-post h5 {
+    position: relative;
+   
+   
+}
+
+.blog-post small {
+    text-transform: uppercase;
+    color:  #ff4d29;
+    text-decoration: underline;
+}
+.content{
+    color: #082032;
+    padding:10px;
+    text-align: center;
+    padding-right: 20px;
+    
+
+}
+.tag{
+    top: 25px;
+}
+
+/*footer*/
+
+.footer {
+    color:white;
+    
+    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../assets/img/bg_banner1.jpg), #082032;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer .footer-top {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.footer .navbar-brand {
+    color: #fff;
+}
+
+
+.footer p {
+    color: #ADB3B9;
+}
+
+.conditions-section {
+    margin: 20px 0;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
