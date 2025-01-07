@@ -1,0 +1,8 @@
+![Spinner Website](https://github.com/Subash770/Prixima-Website/blob/main/img-1.png)
+![Spinner Website](https://github.com/Subash770/Prixima-Website/blob/main/img-2.png)
+![Spinner Website](https://github.com/Subash770/Prixima-Website/blob/main/img-3.png)
+![Spinner Website](https://github.com/Subash770/Prixima-Website/blob/main/img-4.png)
+![Spinner Website](https://github.com/Subash770/Prixima-Website/blob/main/img-5.png)
+![Spinner Website](https://github.com/Subash770/Prixima-Website/blob/main/img-6.png)
+![Spinner Website](https://github.com/Subash770/Prixima-Website/blob/main/img-7.png)
+![Spinner Website](https://github.com/Subash770/Prixima-Website/blob/main/img-8.png)
